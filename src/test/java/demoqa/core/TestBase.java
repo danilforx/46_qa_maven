@@ -12,7 +12,7 @@ public class TestBase {
         app.init();
     }
 
-    @AfterMethod(enabled = false)
+    @AfterMethod(enabled = true)
     public void tearDown() {
         app.stop();
     }
